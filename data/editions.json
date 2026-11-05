@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-05T12:00:00+01:00",
+  "updated_at": "2026-11-05T14:45:00+01:00",
   "editions": [
     {
       "date": "2026-11-05",
@@ -17,7 +17,10 @@
           "source_name": "Qualcomm 2026财年第四季度业绩公告（数据）／MarketWatch（市场报道）",
           "source_url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000127/qcom092726erex991.htm",
           "secondary_source_name": "MarketWatch",
-          "secondary_source_url": "https://www.marketwatch.com/story/qualcomms-stock-falls-as-twin-forces-pressure-sales-fa161159"
+          "secondary_source_url": "https://www.marketwatch.com/story/qualcomms-stock-falls-as-twin-forces-pressure-sales-fa161159",
+          "image_url": "https://www1.xinhuanet.com/tech/20260603/44dd8c3e5fa74da08edc24cf410da524/2026060344dd8c3e5fa74da08edc24cf410da524_202606039926565a2a5f4517afe7593c4b8e98aa.png",
+          "image_alt": "高通骁龙移动平台产品展示",
+          "image_caption": "高通产品场景示意图，非本次财报现场照片"
         },
         {
           "category": "AI与科技",
@@ -29,7 +32,10 @@
           "source_name": "欧盟委员会：欧洲芯片设计平台新闻稿",
           "source_url": "https://digital-strategy.ec.europa.eu/en/news/eu525-million-investment-set-drive-new-generation-european-chip-design-companies",
           "secondary_source_name": "Reuters",
-          "secondary_source_url": "https://www.investing.com/news/stock-market-news/europe-to-invest-525-million-in-chip-startups-to-catch-up-with-us-and-china-5000867"
+          "secondary_source_url": "https://www.investing.com/news/stock-market-news/europe-to-invest-525-million-in-chip-startups-to-catch-up-with-us-and-china-5000867",
+          "image_url": "https://media.licdn.com/dms/image/v2/D4D22AQEAjYYrCeRcSA/feedshare-shrink_800/B4DZ1ofYtyJkAc-/0/1775574552149?e=2147483647&t=Z3JrQ8jGtpyXMBFTSCLPNng0d8R78cN_ZjBVkveX4l0&v=beta",
+          "image_alt": "欧洲芯片设计平台宣传图",
+          "image_caption": "欧洲芯片设计平台相关视觉资料"
         },
         {
           "category": "商业与财经",
@@ -41,7 +47,10 @@
           "source_name": "Reuters",
           "source_url": "https://www.reuters.com/business/media-telecom/china-blocks-softbanks-54-billion-takeover-abbs-robotics-division-ft-reports-2026-11-05/",
           "secondary_source_name": "The Japan Times（引述Bloomberg）",
-          "secondary_source_url": "https://www.japantimes.co.jp/business/2026/11/05/companies/china-block-softbank-robot-sale/"
+          "secondary_source_url": "https://www.japantimes.co.jp/business/2026/11/05/companies/china-block-softbank-robot-sale/",
+          "image_url": "https://framerusercontent.com/images/poPPtUT5iXEgRdz0qH1Mu8hvkSE.jpg?height=853&width=1280",
+          "image_alt": "ABB工业机器人在工厂作业",
+          "image_caption": "ABB机器人应用场景示意图，非交易双方发布的新闻配图"
         },
         {
           "category": "AI与科技",
@@ -53,7 +62,10 @@
           "source_name": "Reuters",
           "source_url": "https://www.reuters.com/legal/government/ai-sharpens-cat-and-mouse-hacking-battle-companies-strengthen-defences-2026-11-05/",
           "secondary_source_name": "英国国家网络安全中心（NCSC）年度评估",
-          "secondary_source_url": "https://www.ncsc.gov.uk/collection/annual-review-2026/understanding-threat/ai-impact-cyber-threat"
+          "secondary_source_url": "https://www.ncsc.gov.uk/collection/annual-review-2026/understanding-threat/ai-impact-cyber-threat",
+          "image_url": "https://www.excel.london/uploads/infosec-2025_173.jpg",
+          "image_alt": "欧洲网络安全会议现场",
+          "image_caption": "欧洲网络安全行业活动现场示意图"
         },
         {
           "category": "国际与地缘政治",
@@ -65,7 +77,10 @@
           "source_name": "英国议会商业、创新与贸易委员会",
           "source_url": "https://committees.parliament.uk/committee/365/business-innovation-science-and-trade-committee/news/218732/britain-cannot-afford-to-drift-mps-demand-action-on-dangerous-dependence-on-chinese-critical-minerals/",
           "secondary_source_name": "英国议会报告全文",
-          "secondary_source_url": "https://publications.parliament.uk/pa/cm5902/cmselect/cmbeis/132/report.html"
+          "secondary_source_url": "https://publications.parliament.uk/pa/cm5902/cmselect/cmbeis/132/report.html",
+          "image_url": "https://static.wixstatic.com/media/5caeff_3117bb23a7964383881aae75a9a726b2~mv2.png/v1/fill/w_980%2Ch_661%2Cal_c%2Cq_90%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/5caeff_3117bb23a7964383881aae75a9a726b2~mv2.png",
+          "image_alt": "英国议会关键矿产圆桌会议",
+          "image_caption": "英国关键矿产议题讨论场景示意图"
         }
       ]
     },
