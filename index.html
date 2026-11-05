@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="欧洲科技与商业日报：消费电子、AI科技、全球商业财经与国际动态。">
+<meta name="theme-color" content="#f5f6f8">
+<title>欧洲科技商业日报</title>
+<style>
+:root{--bg:#f5f6f8;--paper:#fff;--ink:#17202b;--muted:#657180;--line:#e5e9ef;--accent:#2357d6;--soft:#edf2ff}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Microsoft YaHei",sans-serif}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}.wrap{max-width:1100px;margin:auto;padding:28px 22px 64px}
+header{display:flex;justify-content:space-between;gap:18px;align-items:center;border-bottom:1px solid var(--line);padding:8px 0 22px}
+.brand{font-size:14px;letter-spacing:.14em;color:var(--muted);font-weight:700}.toplinks{display:flex;gap:18px;font-size:13px;color:var(--muted)}
+.hero{padding:52px 0 34px}.eyebrow{font-size:12px;letter-spacing:.16em;color:var(--accent);font-weight:800;text-transform:uppercase}
+h1{font-size:clamp(34px,6vw,62px);line-height:1.1;letter-spacing:-.045em;margin:12px 0 16px}.intro{max-width:660px;color:var(--muted);font-size:17px}
+.meta{display:flex;gap:18px;flex-wrap:wrap;color:var(--muted);font-size:13px;margin-top:24px}
+.toolbar{display:flex;justify-content:space-between;gap:14px;align-items:center;flex-wrap:wrap;margin:12px 0 22px}
+.filters{display:flex;gap:8px;flex-wrap:wrap}.filter{border:1px solid var(--line);background:var(--paper);padding:8px 13px;border-radius:99px;color:#465263;font:inherit;font-size:13px;cursor:pointer}.filter.active{background:var(--ink);border-color:var(--ink);color:white}
+.actions{display:flex;gap:8px}.action{border:1px solid var(--line);background:white;border-radius:8px;padding:8px 12px;font-size:13px;cursor:pointer;color:var(--ink)}
+.sectionhead{display:flex;justify-content:space-between;align-items:end;margin:34px 0 14px}.sectionhead h2{font-size:21px;margin:0}.sectionhead span{font-size:12px;color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.article{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:22px;display:flex;flex-direction:column;min-height:240px}
+.article-top{display:flex;justify-content:space-between;gap:12px;align-items:center}.tag{font-size:11px;color:var(--accent);background:var(--soft);padding:4px 9px;border-radius:99px}.date{font-size:12px;color:var(--muted)}
+.article h3{font-size:20px;line-height:1.4;margin:15px 0 9px}.summary{color:#4c5868;font-size:14px;margin:0 0 14px}.impact{font-size:13px;border-left:2px solid #b9c9f7;padding-left:11px;color:#36445a;margin-top:auto}.source{font-size:12px;color:var(--muted);margin-top:15px}
+.empty{background:white;border:1px dashed #cbd3de;border-radius:14px;padding:36px;text-align:center;color:var(--muted)}.empty strong{display:block;color:var(--ink);font-size:18px;margin-bottom:8px}
+.archive{display:flex;gap:10px;flex-wrap:wrap}.archive button{border:1px solid var(--line);background:white;padding:8px 12px;border-radius:8px;cursor:pointer;color:var(--ink)}
+footer{border-top:1px solid var(--line);margin-top:55px;padding-top:20px;color:var(--muted);font-size:12px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+@media(max-width:680px){.wrap{padding:18px 15px 45px}.hero{padding:38px 0 26px}.grid{grid-template-columns:1fr}.article{min-height:0}header{align-items:flex-start}.toplinks{gap:10px}}
+@media print{body{background:white}.wrap{max-width:none;padding:0}.toolbar,.toplinks,footer button{display:none}.article{break-inside:avoid}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header><div class="brand">EUROPE · TECH · BUSINESS</div><nav class="toplinks"><a href="#today">今日简报</a><a href="#archive">历史归档</a><a href="https://github.com/allenhu742-a11y/europe-tech-business-daily" target="_blank" rel="noopener">项目说明 ↗</a></nav></header>
+<section class="hero">
+<div class="eyebrow">Daily intelligence briefing</div>
+<h1>欧洲科技<br>商业日报</h1>
+<p class="intro">以欧洲市场为主线，追踪消费电子、人工智能、全球商业与国际局势。关注新闻背后的产业变化、竞争策略，以及值得持续观察的信号。</p>
+<div class="meta"><span id="edition-date">最新一期：内容准备中</span><span>每日更新 · 中文编译与分析</span><span>公开阅读</span></div>
+</section>
+<section id="today">
+<div class="sectionhead"><h2>今日重点</h2><span id="count">0 条精选</span></div>
+<div class="toolbar"><div class="filters" id="filters"></div><div class="actions"><button class="action" id="copy-link">复制网页链接</button><button class="action" onclick="window.print()">打印 / 导出 PDF</button></div></div>
+<div class="grid" id="articles"></div>
+<div id="empty" class="empty" hidden><strong>首期内容正在准备中</strong>网站框架已上线。新闻内容发布后，会在这里自动显示最新一期，并保留历史归档。</div>
+</section>
+<section id="archive">
+<div class="sectionhead"><h2>历史归档</h2><span>按发布日期查看</span></div>
+<div class="archive" id="archive-list"><span class="date">暂无已发布期数</span></div>
+</section>
+<footer><span>欧洲科技商业日报 · 独立信息整理与行业观察</span><span>内容仅供信息参考，请以原始来源为准</span></footer>
+</div>
+<script>
+const categories=["全部","消费电子","AI与科技","商业与财经","国际与地缘政治"];
+let editions=[],selected="全部";
+const $=id=>document.getElementById(id);
+function esc(s=""){return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
+function renderFilters(){ $("filters").innerHTML=categories.map(c=>'<button class="filter '+(c===selected?'active':'')+'" data-cat="'+esc(c)+'">'+esc(c)+'</button>').join("");}
+function render(){
+ const edition=editions[0]; const articles=edition?.articles||[];
+ $("edition-date").textContent=edition?"最新一期："+(edition.date||""):"最新一期：内容准备中";
+ const visible=articles.filter(a=>selected==="全部"||a.category===selected);
+ $("count").textContent=visible.length+" 条精选";
+ $("articles").innerHTML=visible.map(a=>'<article class="article"><div class="article-top"><span class="tag">'+esc(a.category||"观察")+'</span><span class="date">'+esc(a.published_at||a.date||"")+'</span></div><h3>'+esc(a.title)+'</h3><p class="summary">'+esc(a.summary)+'</p><p class="impact">'+esc(a.europe_impact||a.analysis||"")+'</p><div class="source">'+(a.source_url?'<a href="'+esc(a.source_url)+'" target="_blank" rel="noopener">原始来源：'+esc(a.source_name||"阅读原文")+' ↗</a>':esc(a.source_name||"来源待补充"))+'</div></article>').join("");
+ $("empty").hidden=visible.length>0;
+ $("archive-list").innerHTML=editions.length?editions.map(e=>'<button data-date="'+esc(e.date)+'">'+esc(e.date)+'</button>').join(""):'<span class="date">暂无已发布期数</span>';
+ renderFilters();
+}
+fetch("./data/editions.json").then(r=>{if(!r.ok)throw Error("data unavailable");return r.json()}).then(d=>{editions=(d.editions||[]).sort((a,b)=>b.date.localeCompare(a.date));render();}).catch(()=>{render();$("empty").hidden=false;});
+$("filters").addEventListener("click",e=>{const b=e.target.closest("button[data-cat]");if(b){selected=b.dataset.cat;render();}});
+$("archive-list").addEventListener("click",e=>{const b=e.target.closest("button[data-date]");if(b){const chosen=editions.find(x=>x.date===b.dataset.date);if(chosen){editions=[chosen,...editions.filter(x=>x!==chosen)];selected="全部";render();window.scrollTo({top:0,behavior:"smooth"});}}});
+$("copy-link").addEventListener("click",async()=>{try{await navigator.clipboard.writeText(location.href);$("copy-link").textContent="已复制";setTimeout(()=>$("copy-link").textContent="复制网页链接",1600);}catch(e){$("copy-link").textContent="请手动复制地址";}});
+</script>
+</body>
+</html>
