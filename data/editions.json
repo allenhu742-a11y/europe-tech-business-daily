@@ -1,5 +1,73 @@
 {
   "schema_version": 1,
-  "updated_at": null,
-  "editions": []
+  "updated_at": "2026-11-05T11:15:00+01:00",
+  "editions": [
+    {
+      "date": "2026-11-05",
+      "title": "欧洲科技商业日报｜2026年11月5日",
+      "intro": "今日重点落在半导体周期、欧洲芯片设计自主、工业机器人跨境交易、AI驱动的网络安全攻防，以及关键矿产供应链安全。五条新闻共同指向一个趋势：技术竞争正从单一产品和市场份额，延伸到算力、产业链控制权与经济安全。",
+      "articles": [
+        {
+          "category": "消费电子",
+          "published_at": "2026-11-05",
+          "title": "高通手机芯片收入同比下滑26%，手机业务承压进一步显现",
+          "summary": "高通公布2026财年第四季度业绩，手机业务收入同比下降26%至约51.4亿美元，拖累芯片业务收入下降。公司整体营收略好于市场预期，但手机芯片销售未达预期。存储芯片成本上升、智能手机需求疲弱，以及苹果逐步转向自研基带，均构成压力。高通同时强调汽车、物联网和数据中心业务的增长潜力。",
+          "europe_impact": "欧洲手机品牌与渠道需要关注芯片成本和产品结构变化：若存储成本继续推高整机BOM，入门及中端机型的定价空间可能收窄；高通加速向汽车和数据中心转型，也意味着其资源配置与产品路线将更强调非手机业务。",
+          "watch_signal": "观察下一季度手机芯片收入、存储价格走势，以及高通汽车/数据中心业务增长能否抵消手机业务下滑。重点留意欧洲安卓厂商是否调整新品定价、配置或上市节奏。",
+          "source_name": "Qualcomm 2026财年第四季度业绩公告（数据）／MarketWatch（市场报道）",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000127/qcom092726erex991.htm",
+          "secondary_source_name": "MarketWatch",
+          "secondary_source_url": "https://www.marketwatch.com/story/qualcomms-stock-falls-as-twin-forces-pressure-sales-fa161159"
+        },
+        {
+          "category": "AI与科技",
+          "published_at": "2026-11-04",
+          "title": "欧盟启动5.25亿欧元芯片设计投资，补齐半导体价值链短板",
+          "summary": "欧盟推出欧洲芯片设计平台，计划动员5.25亿欧元投资，支持新一代欧洲芯片设计企业。平台将为初创企业和中小企业提供芯片设计工具、技术支持、知识产权模块及制造产能接入。欧盟称，欧洲芯片设计企业目前在全球该细分市场收入中的占比不足1%。",
+          "europe_impact": "这项投资的意义不只是增加补贴，而是试图把欧洲半导体政策从制造产能扩张延伸到设计端。若能形成可商业化的本土芯片项目，欧洲在汽车、工业、通信和边缘AI芯片领域的供应链韧性有望提升；短期仍需观察资金能否转化为量产订单和客户。",
+          "watch_signal": "关注后续项目申报规则、资金分配国家与企业、首批获支持芯片类型，以及欧洲汽车/工业设备厂商是否承诺采用本土设计方案。",
+          "source_name": "欧盟委员会：欧洲芯片设计平台新闻稿",
+          "source_url": "https://digital-strategy.ec.europa.eu/en/news/eu525-million-investment-set-drive-new-generation-european-chip-design-companies",
+          "secondary_source_name": "Reuters",
+          "secondary_source_url": "https://www.investing.com/news/stock-market-news/europe-to-invest-525-million-in-chip-startups-to-catch-up-with-us-and-china-5000867"
+        },
+        {
+          "category": "商业与财经",
+          "published_at": "2026-11-05",
+          "title": "中国叫停软银54亿美元收购ABB机器人业务，工业机器人交易受地缘政治影响",
+          "summary": "瑞士工程集团ABB表示，中国方面已阻止日本软银以54亿美元收购其机器人业务的交易。报道指出，中国监管机构担忧相关机器人数据可能被转移至海外并用于AI模型训练。该业务在中国拥有重要运营、研发和制造布局，中国市场约占其机器人业务的较大比重；交易受阻也打击了软银将机器人纳入AI投资战略的计划。",
+          "europe_impact": "ABB是欧洲工业自动化的重要参与者，此事说明欧洲企业出售关键技术资产时，交易能否完成不仅取决于买卖双方和欧洲监管审批，也可能受到业务所在国的国家安全审查影响。机器人数据、工业软件和AI训练用途正成为跨境并购审查的新焦点。",
+          "watch_signal": "关注ABB后续对交易终止或替代方案的正式说明、机器人业务独立运营安排，以及欧盟对工业机器人、工业数据和关键技术资产跨境交易的审查政策。",
+          "source_name": "Reuters",
+          "source_url": "https://www.reuters.com/business/media-telecom/china-blocks-softbanks-54-billion-takeover-abbs-robotics-division-ft-reports-2026-11-05/",
+          "secondary_source_name": "The Japan Times（引述Bloomberg）",
+          "secondary_source_url": "https://www.japantimes.co.jp/business/2026/11/05/companies/china-block-softbank-robot-sale/"
+        },
+        {
+          "category": "AI与科技",
+          "published_at": "2026-11-05",
+          "title": "AI加速网络攻防竞赛：漏洞披露增加，企业安全响应窗口持续缩短",
+          "summary": "Reuters报道，AI正在同时提升攻击者与防御者的能力。2026年第三季度报告的软件和系统漏洞接近3.7万项，约为上年同期三倍；欧洲超市制冷系统等事件也暴露出传统运营技术的脆弱性。企业正加大AI安全工具投入，用于威胁检测、漏洞复现和补丁部署，但攻击者同样能借助AI更快识别和利用弱点。",
+          "europe_impact": "欧洲零售、物流、制造和关键基础设施企业面临的风险不再局限于IT系统。联网制冷、仓储、工业控制等运营技术一旦遭攻击，可能直接影响门店运营、供应链和收入。AI安全能力将逐渐成为企业数字化采购和合规治理的基础要求。",
+          "watch_signal": "关注欧洲企业网络安全预算、运营技术（OT）补丁与资产盘点实践、AI安全产品订单，以及NIS2等监管框架下的事件报告和韧性要求。",
+          "source_name": "Reuters",
+          "source_url": "https://www.reuters.com/legal/government/ai-sharpens-cat-and-mouse-hacking-battle-companies-strengthen-defences-2026-11-05/",
+          "secondary_source_name": "英国国家网络安全中心（NCSC）年度评估",
+          "secondary_source_url": "https://www.ncsc.gov.uk/collection/annual-review-2026/understanding-threat/ai-impact-cyber-threat"
+        },
+        {
+          "category": "国际与地缘政治",
+          "published_at": "2026-11-05",
+          "title": "英国议会警告关键矿产对华依赖风险，呼吁建立替代供应链融资机制",
+          "summary": "英国下议院商业、创新与贸易委员会发布关键矿产报告，指出英国在关键矿产及其加工产品上高度依赖进口，中国在多个供应链环节占据主导地位。报告认为，这种集中度可能使国防、能源转型和AI基础设施面临经济胁迫与供应中断风险，并建议加强本土开采、加工和回收，联合盟友采购，并设立关键矿产融资机制。",
+          "europe_impact": "关键矿产已同时关联电池、电动车、半导体、国防和数据中心建设。英国的政策讨论也会影响欧洲盟友的供应链多元化、资源项目融资和回收体系建设；企业需要评估的不只是矿产来源国，还包括精炼、加工和回收环节的集中度。",
+          "watch_signal": "关注英国政府对议会建议的回应、关键矿产融资机制是否落地、英欧及G7联合采购进展，以及电池和电子产业链企业是否披露更细化的矿产来源与回收比例。",
+          "source_name": "英国议会商业、创新与贸易委员会",
+          "source_url": "https://committees.parliament.uk/committee/365/business-innovation-science-and-trade-committee/news/218732/britain-cannot-afford-to-drift-mps-demand-action-on-dangerous-dependence-on-chinese-critical-minerals/",
+          "secondary_source_name": "英国议会报告全文",
+          "secondary_source_url": "https://publications.parliament.uk/pa/cm5902/cmselect/cmbeis/132/report.html"
+        }
+      ]
+    }
+  ]
 }
