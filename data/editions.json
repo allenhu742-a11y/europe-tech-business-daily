@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-05T11:15:00+01:00",
+  "updated_at": "2026-11-05T12:00:00+01:00",
   "editions": [
     {
       "date": "2026-11-05",
@@ -66,6 +66,712 @@
           "source_url": "https://committees.parliament.uk/committee/365/business-innovation-science-and-trade-committee/news/218732/britain-cannot-afford-to-drift-mps-demand-action-on-dangerous-dependence-on-chinese-critical-minerals/",
           "secondary_source_name": "英国议会报告全文",
           "secondary_source_url": "https://publications.parliament.uk/pa/cm5902/cmselect/cmbeis/132/report.html"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "title": "欧洲科技商业日报｜2026年11月04",
+      "intro": "历史晨报回填版：根据此前对话中实际生成的晨报记录恢复主题与分析要点。部分历史原始链接未能从对话记录中找回，因此明确标注缺失，不以猜测链接代替。",
+      "articles": [
+        {
+          "category": "消费电子",
+          "published_at": "2026-11-04",
+          "title": "Skyworks显示安卓市场疲软，手机射频芯片需求承压",
+          "summary": "晨报关注Skyworks业绩与安卓手机市场需求变化。",
+          "europe_impact": "欧洲安卓品牌的产品组合、射频器件采购和供应链成本值得关注。",
+          "watch_signal": "观察手机客户订单、库存和下一季度指引。",
+          "source_name": "历史来源链接未保留",
+          "source_url": ""
+        },
+        {
+          "category": "AI与科技",
+          "published_at": "2026-11-04",
+          "title": "AMD数据中心业务增长，股权激励安排引发关注",
+          "summary": "晨报关注AMD数据中心业务增长及公司股权激励信息。",
+          "europe_impact": "AI服务器芯片竞争会影响欧洲云服务商和数据中心采购选择。",
+          "watch_signal": "观察数据中心收入、GPU供应和客户资本开支。",
+          "source_name": "历史来源链接未保留",
+          "source_url": ""
+        },
+        {
+          "category": "AI与科技",
+          "published_at": "2026-11-04",
+          "title": "欧盟法院相关案件聚焦Gemini与新闻版权",
+          "summary": "晨报关注欧盟法院体系下涉及Google Gemini与新闻版权的法律争议。",
+          "europe_impact": "生成式AI训练、内容引用和新闻授权规则将影响欧洲AI产品合规成本。",
+          "watch_signal": "观察法院裁决、版权方诉求及欧盟后续规则。",
+          "source_name": "CJEU相关报道（历史链接未保留）",
+          "source_url": ""
+        },
+        {
+          "category": "AI与科技",
+          "published_at": "2026-11-04",
+          "title": "Oracle据报取消腾讯约70亿美元算力租赁安排",
+          "summary": "晨报关注Oracle据报取消与腾讯相关的大额算力租赁安排。",
+          "europe_impact": "大型云算力合同变化会影响全球AI基础设施供需和云厂商竞争。",
+          "watch_signal": "观察双方正式回应、合同原因和算力采购替代方案。",
+          "source_name": "历史来源链接未保留",
+          "source_url": ""
+        },
+        {
+          "category": "AI与科技",
+          "published_at": "2026-11-04",
+          "title": "欧洲八国联网冷柜遭攻击，运营技术安全风险凸显",
+          "summary": "晨报关注欧洲多国联网冷柜遭网络攻击的事件。",
+          "europe_impact": "零售业联网设备和运营技术安全直接关系门店运营、供应链与食品安全。",
+          "watch_signal": "观察受影响国家、攻击入口、补丁措施和监管通报。",
+          "source_name": "历史来源链接未保留",
+          "source_url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "title": "欧洲科技商业日报｜2026年11月03",
+      "intro": "历史晨报回填版：根据此前对话中实际生成的晨报记录恢复主题与分析要点。部分历史原始链接未能从对话记录中找回，因此明确标注缺失，不以猜测链接代替。",
+      "articles": [
+        {
+          "category": "消费电子",
+          "published_at": "2026-11-03",
+          "title": "苹果存储成本上升，iPhone产品利润与定价策略面临考验",
+          "summary": "晨报关注存储成本变化对苹果产品成本和供应链的影响。",
+          "europe_impact": "欧洲终端售价、产品配置和渠道促销空间可能受到成本传导影响。",
+          "watch_signal": "观察苹果供应链采购、产品毛利和欧洲零售价格。",
+          "source_name": "历史来源链接未保留",
+          "source_url": ""
+        },
+        {
+          "category": "AI与科技",
+          "published_at": "2026-11-03",
+          "title": "Nvidia中国客户算力限制影响全球AI芯片市场",
+          "summary": "晨报关注Nvidia面向中国客户的算力供应限制及其对业务布局的影响。",
+          "europe_impact": "欧洲AI算力采购和芯片供应格局可能受到地缘政策变化的间接影响。",
+          "watch_signal": "观察出口管制范围、订单调整和区域市场收入变化。",
+          "source_name": "历史来源链接未保留",
+          "source_url": ""
+        },
+        {
+          "category": "AI与科技",
+          "published_at": "2026-11-03",
+          "title": "德国IONOS与Nextcloud推进学校云方案",
+          "summary": "晨报关注德国本土云服务商与Nextcloud面向学校场景的合作。",
+          "europe_impact": "欧洲公共部门数字主权、本地云和教育数据保护需求可能为本土供应商创造机会。",
+          "watch_signal": "观察学校采购、部署规模和其他国家复制情况。",
+          "source_name": "IONOS／Nextcloud（历史链接未保留）",
+          "source_url": ""
+        },
+        {
+          "category": "商业与财经",
+          "published_at": "2026-11-03",
+          "title": "Marvell收购Lumentum，光通信供应链整合加速",
+          "summary": "晨报关注Marvell收购Lumentum及AI数据中心光互连市场整合。",
+          "europe_impact": "欧洲数据中心和通信设备供应链需关注光模块、光器件的供应与竞争格局。",
+          "watch_signal": "观察交易审批、产品组合整合和AI数据中心订单。",
+          "source_name": "历史来源链接未保留",
+          "source_url": ""
+        },
+        {
+          "category": "商业与财经",
+          "published_at": "2026-11-03",
+          "title": "AI投资热潮与欧洲央行估值风险受到关注",
+          "summary": "晨报关注AI资本开支和金融市场估值风险，以及欧洲央行对相关风险的观察。",
+          "europe_impact": "欧洲科技企业融资环境和AI基础设施投资回报预期可能受市场波动影响。",
+          "watch_signal": "观察企业资本开支、债务融资和金融稳定评估。",
+          "source_name": "历史来源链接未保留",
+          "source_url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-11-01",
+      "title": "欧洲科技商业日报｜2026年11月01",
+      "intro": "历史晨报回填版：根据此前对话中实际生成的晨报记录恢复主题与分析要点。部分历史原始链接未能从对话记录中找回，因此明确标注缺失，不以猜测链接代替。",
+      "articles": [
+        {
+          "category": "商业与财经",
+          "published_at": "2026-11-01",
+          "title": "欧盟拟对跨境电商包裹征收每件2欧元处理费",
+          "summary": "晨报关注欧盟跨境电商小包裹处理费安排及其对平台和进口商的影响。",
+          "europe_impact": "低价跨境商品进入欧洲的成本结构可能变化，平台、卖家和本地零售商都需调整。",
+          "watch_signal": "观察政策生效时间、适用范围和平台端费用转嫁。",
+          "source_name": "欧盟官方信息（历史链接缺失）",
+          "source_url": ""
+        },
+        {
+          "category": "半导体",
+          "published_at": "2026-11-01",
+          "title": "韩国10月出口增长，半导体出口同比增长259.4%",
+          "summary": "晨报关注韩国出口数据及半导体出口强劲增长。",
+          "europe_impact": "AI存储与芯片需求可能继续影响欧洲设备成本和供应链议价。",
+          "watch_signal": "观察后续出口、存储价格及主要厂商资本开支。",
+          "source_name": "韩国官方贸易数据（历史链接缺失）",
+          "source_url": ""
+        },
+        {
+          "category": "能源与商业",
+          "published_at": "2026-11-01",
+          "title": "德国天然气储备约61.35%，低于80%目标",
+          "summary": "晨报关注德国天然气储备水平及冬季能源安全。",
+          "europe_impact": "能源价格和供应稳定性会影响欧洲制造业、家庭支出与数据中心成本。",
+          "watch_signal": "观察补库速度、天气、进口供应和批发气价。",
+          "source_name": "德国能源监管机构（历史链接缺失）",
+          "source_url": ""
+        },
+        {
+          "category": "国际与地缘政治",
+          "published_at": "2026-11-01",
+          "title": "中国海警在台湾东部开展巡逻",
+          "summary": "晨报关注台海周边海上活动及区域安全局势。",
+          "europe_impact": "台海紧张局势可能影响欧洲企业对亚洲物流、芯片和关键零部件供应链的风险评估。",
+          "watch_signal": "观察后续海上活动、外交回应和航运风险。",
+          "source_name": "历史来源链接缺失",
+          "source_url": ""
+        },
+        {
+          "category": "商业与财经",
+          "published_at": "2026-11-01",
+          "title": "Binance披露约63亿美元被盗事件后恢复提现",
+          "summary": "晨报关注加密资产平台安全事件及恢复服务进展。",
+          "europe_impact": "欧洲加密资产平台监管、托管安全和用户信任受到关注。",
+          "watch_signal": "观察损失确认、客户赔付、监管调查和安全整改。",
+          "source_name": "Binance（历史链接缺失）",
+          "source_url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "title": "欧洲科技商业日报｜2026年10月31",
+      "intro": "历史晨报回填版：根据此前对话中实际生成的晨报记录恢复主题与分析要点。部分历史原始链接未能从对话记录中找回，因此明确标注缺失，不以猜测链接代替。",
+      "articles": [
+        {
+          "category": "半导体",
+          "published_at": "2026-10-31",
+          "title": "Intel股价暴跌近30%，PC需求与芯片周期承压",
+          "summary": "晨报关注Intel股价大幅下跌及PC市场需求、成本压力。",
+          "europe_impact": "欧洲PC厂商和渠道需关注处理器供应、终端定价及企业换机周期。",
+          "watch_signal": "观察Intel后续指引、PC出货和供应链库存。",
+          "source_name": "Reuters（历史链接缺失）",
+          "source_url": ""
+        },
+        {
+          "category": "商业与财经",
+          "published_at": "2026-10-31",
+          "title": "欧盟与加拿大建立未来联盟",
+          "summary": "晨报关注欧盟与加拿大建立新的合作安排。",
+          "europe_impact": "跨大西洋伙伴关系可能影响关键技术、能源和供应链合作。",
+          "watch_signal": "观察合作机制的具体领域和落地项目。",
+          "source_name": "欧盟／加拿大官方信息（历史链接缺失）",
+          "source_url": ""
+        },
+        {
+          "category": "商业与财经",
+          "published_at": "2026-10-31",
+          "title": "欧元区GDP增长0.4%，经济温和扩张",
+          "summary": "晨报关注欧元区季度GDP增长0.4%。",
+          "europe_impact": "宏观增长影响消费者支出、企业IT预算和电子产品需求。",
+          "watch_signal": "观察成员国分化、消费数据和下一季度增长。",
+          "source_name": "Eurostat／Reuters（历史链接缺失）",
+          "source_url": ""
+        },
+        {
+          "category": "AI与科技",
+          "published_at": "2026-10-31",
+          "title": "英国CMA调查Meta，平台竞争与数字市场监管持续",
+          "summary": "晨报关注英国竞争与市场管理局对Meta的调查。",
+          "europe_impact": "平台规则变化可能影响欧洲数字广告、社交媒体和内容生态。",
+          "watch_signal": "观察CMA调查范围、临时措施和后续监管决定。",
+          "source_name": "英国CMA（历史链接缺失）",
+          "source_url": ""
+        },
+        {
+          "category": "AI与科技",
+          "published_at": "2026-10-31",
+          "title": "富士康与OpenAI酝酿合作，AI硬件制造生态受关注",
+          "summary": "晨报关注富士康与OpenAI潜在合作及AI硬件制造机会。",
+          "europe_impact": "欧洲电子制造、供应链伙伴和AI设备市场需关注硬件形态变化。",
+          "watch_signal": "观察合作是否正式公布、产品方向及产能安排。",
+          "source_name": "历史来源链接缺失",
+          "source_url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "title": "欧洲科技商业日报｜2026年10月30",
+      "intro": "历史晨报回填版：根据此前对话中实际生成的晨报记录恢复主题与分析要点。部分历史原始链接未能从对话记录中找回，因此明确标注缺失，不以猜测链接代替。",
+      "articles": [
+        {
+          "category": "半导体",
+          "published_at": "2026-10-30",
+          "title": "STMicro利润接近翻倍，欧洲芯片需求出现改善",
+          "summary": "晨报关注STMicro业绩改善及AI、个人电子等需求对业务的支撑。",
+          "europe_impact": "欧洲芯片供应链复苏有助于汽车、工业和消费电子厂商，但周期持续性仍待确认。",
+          "watch_signal": "观察公司指引、订单和库存变化。",
+          "source_name": "STMicro（历史链接缺失）",
+          "source_url": ""
+        },
+        {
+          "category": "商业与财经",
+          "published_at": "2026-10-30",
+          "title": "Capgemini上调业绩预期，企业数字化服务需求受关注",
+          "summary": "晨报关注Capgemini上调业绩预期及企业IT服务市场表现。",
+          "europe_impact": "欧洲企业数字化、云迁移和AI项目支出将影响本地IT服务竞争。",
+          "watch_signal": "观察订单增长、AI项目收入和客户预算。",
+          "source_name": "Capgemini（历史链接缺失）",
+          "source_url": ""
+        },
+        {
+          "category": "AI与科技",
+          "published_at": "2026-10-30",
+          "title": "Orange与Mistral合作网络安全AI",
+          "summary": "晨报关注Orange与Mistral在网络安全AI方面的合作。",
+          "europe_impact": "欧洲运营商与本土AI企业合作，有助于发展数据主权和本地安全能力。",
+          "watch_signal": "观察产品部署、企业客户采用和商业化进度。",
+          "source_name": "Orange／Mistral（历史链接缺失）",
+          "source_url": ""
+        },
+        {
+          "category": "商业与财经",
+          "published_at": "2026-10-30",
+          "title": "欧洲央行维持利率不变，拉加德提前离任引发关注",
+          "summary": "晨报关注ECB维持利率不变及拉加德提前离任消息。",
+          "europe_impact": "欧洲货币政策路径和领导层变化会影响企业融资、汇率和投资预期。",
+          "watch_signal": "观察继任安排、通胀数据和后续利率指引。",
+          "source_name": "Reuters（历史链接缺失）",
+          "source_url": ""
+        },
+        {
+          "category": "国际与地缘政治",
+          "published_at": "2026-10-30",
+          "title": "德国推动欧盟加强与亚洲合作",
+          "summary": "晨报关注德国推动欧盟加强与亚洲经济体合作的政策方向。",
+          "europe_impact": "欧洲产业链、贸易伙伴多元化与对亚洲市场的依赖关系值得关注。",
+          "watch_signal": "观察欧盟层面政策倡议及后续经贸安排。",
+          "source_name": "历史来源链接缺失",
+          "source_url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "title": "欧洲科技商业日报｜2026年10月29",
+      "intro": "历史晨报回填版：根据此前对话中实际生成的晨报记录恢复主题与分析要点。部分历史原始链接未能从对话记录中找回，因此明确标注缺失，不以猜测链接代替。",
+      "articles": [
+        {
+          "category": "消费电子",
+          "published_at": "2026-10-29",
+          "title": "三星单季营业利润突破107万亿韩元，AI芯片强劲但手机业务承压",
+          "summary": "三星季度营收195.3万亿韩元、营业利润107.4万亿韩元，其中半导体利润约106.5万亿韩元；晨报同时指出移动业务成本压力。",
+          "europe_impact": "欧洲旗舰机需求相对有韧性，但中低端产品可能受到内存成本和促销竞争挤压。",
+          "watch_signal": "观察存储产能与价格、欧洲零售库存和黑五促销。",
+          "source_name": "Samsung／Reuters（原始链接未在历史记录中保留）",
+          "source_url": ""
+        },
+        {
+          "category": "半导体",
+          "published_at": "2026-10-29",
+          "title": "STMicro利润接近翻倍，欧洲半导体复苏出现积极信号",
+          "summary": "STMicro第三季度调整后营业利润约4.29亿美元、收入约37.6亿美元；个人电子、AI数据中心和低轨卫星相关需求提供支持。",
+          "europe_impact": "传感器、电源和连接芯片供给与成本变化，将影响欧洲设备和消费电子供应链。",
+          "watch_signal": "观察Q4指引、个人电子收入及芯片价格变化。",
+          "source_name": "STMicro／Reuters（原始链接未在历史记录中保留）",
+          "source_url": ""
+        },
+        {
+          "category": "AI与科技",
+          "published_at": "2026-10-29",
+          "title": "Alphabet财报引发市场担忧，AI投入与现金流压力成为焦点",
+          "summary": "晨报关注Alphabet财报及AI资本开支对自由现金流的影响，记录的自由现金流为负90.7亿美元。",
+          "europe_impact": "欧洲云服务、数据中心和AI供应链企业估值可能受到全球资本市场情绪影响。",
+          "watch_signal": "观察云业务增长能否覆盖AI基础设施投入。",
+          "source_name": "历史来源链接未保留",
+          "source_url": ""
+        },
+        {
+          "category": "商业与财经",
+          "published_at": "2026-10-29",
+          "title": "欧洲央行维持2.5%利率，能源通胀与法国融资成本受关注",
+          "summary": "晨报关注ECB利率决定，以及能源通胀和法国融资成本风险。",
+          "europe_impact": "融资成本影响欧洲企业投资和居民消费，能源价格则影响制造业与数据中心运营。",
+          "watch_signal": "观察后续通胀、债券收益率及央行政策信号。",
+          "source_name": "ECB／Reuters（历史链接缺失）",
+          "source_url": ""
+        },
+        {
+          "category": "国际与地缘政治",
+          "published_at": "2026-10-29",
+          "title": "德国总统警告中欧贸易失衡与关键原材料供应风险",
+          "summary": "晨报关注德国总统施泰因迈尔对中欧贸易关系、市场准入和关键原材料供应的表态。",
+          "europe_impact": "欧洲科技制造业需评估关键原材料供应集中度及贸易政策风险。",
+          "watch_signal": "观察欧中经贸沟通、原材料出口政策与欧洲供应链多元化。",
+          "source_name": "历史来源链接缺失",
+          "source_url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-10-28",
+      "title": "欧洲科技商业日报｜2026年10月28",
+      "intro": "历史晨报回填版：根据此前对话中实际生成的晨报记录恢复主题与分析要点。部分历史原始链接未能从对话记录中找回，因此明确标注缺失，不以猜测链接代替。",
+      "articles": [
+        {
+          "category": "AI与科技",
+          "published_at": "2026-10-28",
+          "title": "OpenAI扩大采用Google TPU，AI算力供应格局变化",
+          "summary": "晨报关注OpenAI增加对Google TPU的采用，反映头部AI企业分散算力供应的趋势。",
+          "europe_impact": "欧洲云厂商和数据中心需要关注GPU以外的加速器生态。",
+          "watch_signal": "历史来源链接缺失",
+          "source_url": ""
+        },
+        {
+          "category": "半导体",
+          "published_at": "2026-10-28",
+          "title": "中国长鑫存储启动先进AI内存生产",
+          "summary": "晨报关注CXMT先进内存产品与AI存储供应链进展。",
+          "europe_impact": "全球存储供给竞争可能影响欧洲消费电子厂商的采购成本和供应策略。",
+          "watch_signal": "历史来源链接缺失",
+          "source_url": ""
+        },
+        {
+          "category": "半导体",
+          "published_at": "2026-10-28",
+          "title": "SK海力士利润同比增长超过7倍，AI内存需求强劲",
+          "summary": "晨报关注SK海力士利润大幅增长及AI相关内存需求。",
+          "europe_impact": "存储供应商盈利与产能分配变化，可能继续推高终端设备成本。",
+          "watch_signal": "历史来源链接缺失",
+          "source_url": ""
+        },
+        {
+          "category": "商业与财经",
+          "published_at": "2026-10-28",
+          "title": "欧元区银行收紧消费信贷，居民购买力面临考验",
+          "summary": "晨报关注银行消费信贷标准趋紧。",
+          "europe_impact": "分期购买和消费融资条件变化可能影响欧洲耐用品与电子产品销售。",
+          "watch_signal": "历史来源链接缺失",
+          "source_url": ""
+        },
+        {
+          "category": "国际与地缘政治",
+          "published_at": "2026-10-28",
+          "title": "欧洲继续争取俄乌谈判席位",
+          "summary": "晨报延续关注欧洲参与俄乌谈判的外交努力。",
+          "europe_impact": "欧洲安全安排、援助承诺和谈判代表权值得持续跟踪。",
+          "watch_signal": "历史来源链接缺失",
+          "source_url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "title": "欧洲科技商业日报｜2026年10月27",
+      "intro": "历史晨报回填版：根据此前对话中实际生成的晨报记录恢复主题与分析要点。部分历史原始链接未能从对话记录中找回，因此明确标注缺失，不以猜测链接代替。",
+      "articles": [
+        {
+          "category": "AI与科技",
+          "published_at": "2026-10-27",
+          "title": "Anthropic推进约630亿美元AI基础设施融资",
+          "summary": "晨报关注Anthropic大规模AI基础设施融资计划及其算力扩张。",
+          "europe_impact": "欧洲云与数据中心市场可能面临更强算力需求和资本竞争。",
+          "watch_signal": "历史来源链接缺失",
+          "source_url": ""
+        },
+        {
+          "category": "AI与科技",
+          "published_at": "2026-10-27",
+          "title": "ASML对荷兰经济贡献或达GDP的1.6%",
+          "summary": "晨报关注ASML对荷兰经济、就业和高科技供应链的带动作用。",
+          "europe_impact": "凸显欧洲半导体设备产业的战略价值及其对本地经济的影响。",
+          "watch_signal": "历史来源链接缺失",
+          "source_url": ""
+        },
+        {
+          "category": "消费电子",
+          "published_at": "2026-10-27",
+          "title": "三星折叠屏在欧洲销量同比增长约45%",
+          "summary": "晨报关注三星折叠屏产品在欧洲市场的增长表现。",
+          "europe_impact": "折叠屏市场扩容可能带动高端安卓竞争和渠道资源重新分配。",
+          "watch_signal": "历史来源链接缺失",
+          "source_url": ""
+        },
+        {
+          "category": "国际与地缘政治",
+          "published_at": "2026-10-27",
+          "title": "乌克兰奥列什基出现局部停火安排",
+          "summary": "晨报关注10月27日前后奥列什基局部停火动向。",
+          "europe_impact": "局部停火信号仍需结合整体战事和欧洲安全政策判断。",
+          "watch_signal": "历史来源链接缺失",
+          "source_url": ""
+        },
+        {
+          "category": "国际与地缘政治",
+          "published_at": "2026-10-27",
+          "title": "欧洲争取参与俄乌谈判，外交角色受到关注",
+          "summary": "晨报关注欧洲希望在俄乌谈判中保有席位和影响力。",
+          "europe_impact": "观察欧洲国家协调、谈判代表安排及后续安全保障方案。",
+          "watch_signal": "历史来源链接缺失",
+          "source_url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "title": "欧洲科技商业日报｜2026年10月26",
+      "intro": "历史晨报回填版：根据此前对话中实际生成的晨报记录恢复主题与分析要点。部分历史原始链接未能从对话记录中找回，因此明确标注缺失，不以猜测链接代替。",
+      "articles": [
+        {
+          "category": "消费电子",
+          "published_at": "2026-10-26",
+          "title": "iPhone Duo带动生态竞争，苹果新形态设备影响供应链",
+          "summary": "晨报关注苹果折叠设备及其对配件、应用和高端手机生态的影响。",
+          "europe_impact": "观察欧洲渠道反馈、开发者适配与竞品产品规划。",
+          "watch_signal": "Apple／MacRumors（历史链接缺失）",
+          "source_url": ""
+        },
+        {
+          "category": "AI与科技",
+          "published_at": "2026-10-26",
+          "title": "欧洲AI算力投资升温，云基础设施竞争加剧",
+          "summary": "晨报关注欧洲AI算力、数据中心和云服务资本投入。",
+          "europe_impact": "关注本地数据中心建设、能源供应和云服务市场份额。",
+          "watch_signal": "Reuters（历史链接缺失）",
+          "source_url": ""
+        },
+        {
+          "category": "消费电子",
+          "published_at": "2026-10-26",
+          "title": "全球手机高端化与内存涨价并行，终端成本压力上升",
+          "summary": "晨报讨论手机市场高端化趋势及内存成本上涨。",
+          "europe_impact": "欧洲中低端机型的配置、价格和促销空间可能受挤压。",
+          "watch_signal": "Cinco Días／Counterpoint（历史链接缺失）",
+          "source_url": ""
+        },
+        {
+          "category": "国际与地缘政治",
+          "published_at": "2026-10-26",
+          "title": "俄乌谈判动向牵动欧洲安全与外交安排",
+          "summary": "晨报关注谈判进展及欧洲在安全议程中的角色。",
+          "europe_impact": "观察欧洲国家参与机制、制裁政策和防务预算变化。",
+          "watch_signal": "Euronews／The Moscow Times（历史链接缺失）",
+          "source_url": ""
+        },
+        {
+          "category": "AI与科技",
+          "published_at": "2026-10-26",
+          "title": "欧洲AI监管出现分歧，创新与合规如何平衡受关注",
+          "summary": "晨报关注欧洲内部对AI监管节奏和执行方式的讨论。",
+          "europe_impact": "监管确定性将影响AI产品在欧洲的上线、数据使用和投资决策。",
+          "watch_signal": "Tech Policy Press／Euronews（历史链接缺失）",
+          "source_url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-10-25",
+      "title": "欧洲科技商业日报｜2026年10月25",
+      "intro": "历史晨报回填版：根据此前对话中实际生成的晨报记录恢复主题与分析要点。部分历史原始链接未能从对话记录中找回，因此明确标注缺失，不以猜测链接代替。",
+      "articles": [
+        {
+          "category": "AI与科技",
+          "published_at": "2026-10-25",
+          "title": "OpenAI与波兰NASK推进AI安全合作",
+          "summary": "晨报关注AI安全研究与波兰国家研究机构合作。",
+          "europe_impact": "观察合作项目、评测框架和欧洲本地AI治理实践。",
+          "watch_signal": "OpenAI／NASK（历史链接缺失）",
+          "source_url": ""
+        },
+        {
+          "category": "商业与财经",
+          "published_at": "2026-10-25",
+          "title": "欧元区消费者信心变化，消费复苏基础仍待验证",
+          "summary": "晨报关注欧元区消费者信心指标及居民支出意愿。",
+          "europe_impact": "消费电子需求、零售促销和中端机型销售可能受影响。",
+          "watch_signal": "Reuters（历史链接缺失）",
+          "source_url": ""
+        },
+        {
+          "category": "AI与科技",
+          "published_at": "2026-10-25",
+          "title": "Nvidia加码欧洲Physical AI，机器人产业链受关注",
+          "summary": "晨报关注Nvidia在欧洲实体AI、机器人方向的合作与投资。",
+          "europe_impact": "欧洲工业自动化、机器人初创企业和制造业数字化可能受益。",
+          "watch_signal": "Reuters（历史链接缺失）",
+          "source_url": ""
+        },
+        {
+          "category": "商业与财经",
+          "published_at": "2026-10-25",
+          "title": "德国PMI反映制造业景气仍承压",
+          "summary": "晨报关注德国制造业采购经理人指数及工业活动变化。",
+          "europe_impact": "德国需求和制造业订单影响欧洲供应链与消费电子产业。",
+          "watch_signal": "Reuters（历史链接缺失）",
+          "source_url": ""
+        },
+        {
+          "category": "国际与地缘政治",
+          "published_at": "2026-10-25",
+          "title": "欧洲加强反无人机防御，安全技术需求升温",
+          "summary": "晨报关注欧洲反无人机能力建设和防务安全需求。",
+          "europe_impact": "传感器、通信、电子系统和国防科技供应商值得关注。",
+          "watch_signal": "历史记录未保留可核验原始链接",
+          "source_url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "title": "欧洲科技商业日报｜2026年10月24",
+      "intro": "历史晨报回填版：根据此前对话中实际生成的晨报记录恢复主题与分析要点。部分历史原始链接未能从对话记录中找回，因此明确标注缺失，不以猜测链接代替。",
+      "articles": [
+        {
+          "category": "AI与科技",
+          "published_at": "2026-10-24",
+          "title": "AI概念股震荡，资本市场重新审视算力投资回报",
+          "summary": "晨报关注AI相关股票波动和投资者对行业增长预期的调整。",
+          "europe_impact": "欧洲AI基础设施投资和科技股估值可能受到影响。",
+          "watch_signal": "Reuters／Business Recorder（历史链接缺失）",
+          "source_url": ""
+        },
+        {
+          "category": "消费电子",
+          "published_at": "2026-10-24",
+          "title": "iPhone Duo在欧洲开售，折叠屏竞争进入新阶段",
+          "summary": "晨报关注苹果新形态手机欧洲开售及其对高端市场的影响。",
+          "europe_impact": "观察上市国家、渠道供货、用户反馈和竞品促销。",
+          "watch_signal": "Reuters Connect（历史链接缺失）",
+          "source_url": ""
+        },
+        {
+          "category": "商业与财经",
+          "published_at": "2026-10-24",
+          "title": "欧洲天然气价格上涨近30%，能源成本风险再现",
+          "summary": "晨报关注欧洲天然气价格大幅上涨及其对能源市场的传导。",
+          "europe_impact": "能源成本可能影响欧洲制造业、数据中心运营和居民消费。",
+          "watch_signal": "Reuters／Yahoo Finance（历史链接缺失）",
+          "source_url": ""
+        },
+        {
+          "category": "国际与地缘政治",
+          "published_at": "2026-10-24",
+          "title": "俄乌谈判窗口出现变化，欧洲安全议程仍存不确定性",
+          "summary": "晨报关注俄乌谈判动向及其对欧洲安全和外交格局的影响。",
+          "europe_impact": "观察停火条件、欧洲参与程度及能源与国防政策反应。",
+          "watch_signal": "AOL（历史链接缺失）",
+          "source_url": ""
+        },
+        {
+          "category": "AI与科技",
+          "published_at": "2026-10-24",
+          "title": "OpenAI与波兰NASK推进AI安全合作",
+          "summary": "晨报关注OpenAI与波兰国家研究机构NASK的AI安全合作。",
+          "europe_impact": "这对波兰及欧洲AI治理、评测能力和本地生态合作具有示范意义。",
+          "watch_signal": "Inside Telecom（历史链接缺失）",
+          "source_url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "title": "欧洲科技商业日报｜2026年10月23",
+      "intro": "历史晨报回填版：根据此前对话中实际生成的晨报记录恢复主题与分析要点。部分历史原始链接未能从对话记录中找回，因此明确标注缺失，不以猜测链接代替。",
+      "articles": [
+        {
+          "category": "消费电子",
+          "published_at": "2026-10-23",
+          "title": "iPhone Duo开售，苹果折叠屏进入欧洲市场竞争视野",
+          "summary": "晨报关注苹果新形态产品开售及其对高端手机市场的影响。",
+          "europe_impact": "观察欧洲首发覆盖、预订表现、渠道库存和竞品定价。",
+          "watch_signal": "Apple（历史链接缺失）",
+          "source_url": ""
+        },
+        {
+          "category": "AI与科技",
+          "published_at": "2026-10-23",
+          "title": "AI股票出现抛售，市场开始追问投资回报",
+          "summary": "晨报关注AI相关股票波动，以及市场对巨额AI资本开支回报周期的重新评估。",
+          "europe_impact": "欧洲云服务商、数据中心和AI供应链估值可能受到外溢影响。",
+          "watch_signal": "Reuters（历史链接缺失）",
+          "source_url": ""
+        },
+        {
+          "category": "AI与科技",
+          "published_at": "2026-10-23",
+          "title": "Nvidia在柏林强化Physical AI与机器人布局",
+          "summary": "晨报关注Nvidia在欧洲推动实体AI和机器人合作。",
+          "europe_impact": "观察欧洲制造商合作、机器人落地订单及本地生态伙伴。",
+          "watch_signal": "Reuters（历史链接缺失）",
+          "source_url": ""
+        },
+        {
+          "category": "AI与科技",
+          "published_at": "2026-10-23",
+          "title": "Meta调整欧洲AI内容条款，平台合规边界受关注",
+          "summary": "晨报关注Meta在欧洲市场的AI内容政策与平台规则变化。",
+          "europe_impact": "留意欧盟监管回应、创作者权益和平台产品功能调整。",
+          "watch_signal": "The Verge／Digital Strategy（历史链接缺失）",
+          "source_url": ""
+        },
+        {
+          "category": "国际与地缘政治",
+          "published_at": "2026-10-23",
+          "title": "Palantir与北约数字主权议题升温",
+          "summary": "晨报讨论国防数字化、数据主权与欧洲对关键技术供应商的依赖。",
+          "europe_impact": "观察欧洲国防采购、数据驻留和本土软件供应商机会。",
+          "watch_signal": "历史记录未保留可核验原始链接",
+          "source_url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "title": "欧洲科技商业日报｜2026年10月22",
+      "intro": "历史晨报回填版：根据此前对话中实际生成的晨报记录恢复主题与分析要点。部分历史原始链接未能从对话记录中找回，因此明确标注缺失，不以猜测链接代替。",
+      "articles": [
+        {
+          "category": "消费电子",
+          "published_at": "2026-10-22",
+          "title": "存储价格上涨，手机与平板BOM成本压力抬头",
+          "summary": "晨报聚焦存储器价格上涨对消费电子供应链的影响。",
+          "europe_impact": "关注存储合约价、终端厂商采购策略与新品定价。",
+          "watch_signal": "历史记录未保留可核验原始链接",
+          "source_url": ""
+        },
+        {
+          "category": "消费电子",
+          "published_at": "2026-10-22",
+          "title": "OPPO加码欧洲高端化与AI入口布局",
+          "summary": "晨报讨论OPPO在欧洲市场提升品牌定位，并把AI功能作为产品差异化入口。",
+          "europe_impact": "观察欧洲新品组合、渠道投入、AI功能本地化与高端机份额。",
+          "watch_signal": "历史记录未保留可核验原始链接",
+          "source_url": ""
+        },
+        {
+          "category": "消费电子",
+          "published_at": "2026-10-22",
+          "title": "苹果预告10月28日新品，生态更新值得关注",
+          "summary": "晨报关注苹果新品发布及其对设备生态、产品周期的影响。",
+          "europe_impact": "留意欧洲上市节奏、产品组合与旧款促销变化。",
+          "watch_signal": "Apple（历史链接缺失）",
+          "source_url": ""
+        },
+        {
+          "category": "商业与财经",
+          "published_at": "2026-10-22",
+          "title": "欧洲企业盈利改善，但能源与成本风险仍在",
+          "summary": "晨报梳理欧洲企业盈利预期，同时提示能源价格和经营成本的不确定性。",
+          "europe_impact": "关注欧洲企业财报指引、能源成本与消费需求。",
+          "watch_signal": "历史记录未保留可核验原始链接",
+          "source_url": ""
+        },
+        {
+          "category": "消费电子",
+          "published_at": "2026-10-22",
+          "title": "三星折叠屏路线图释放产品形态竞争信号",
+          "summary": "晨报关注三星折叠屏产品规划及其对高端智能手机竞争的影响。",
+          "europe_impact": "观察欧洲折叠屏销量、价格带和竞品跟进速度。",
+          "watch_signal": "历史记录未保留可核验原始链接",
+          "source_url": ""
         }
       ]
     }
