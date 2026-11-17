@@ -22,11 +22,11 @@
           "secondary_source_url": "https://www.esa.int/it/articoli/about-us/directorates/space-transportation/ariane/ariane-6-made-in-italy",
           "related_source_name": "ICEYE：公司与主权卫星情报业务介绍",
           "related_source_url": "https://www.iceye.com/company",
-          "image_url": "",
-          "image_alt": "",
-          "image_caption": "",
-          "image_source_name": "",
-          "image_source_url": ""
+          "image_url": "https://sar.iceye.com/5.2.8/productguide/img/ICEYE_gen3_sat_space_1920px.jpg",
+          "image_alt": "ICEYE第三代合成孔径雷达卫星官方示意图",
+          "image_caption": "ICEYE官方产品资料中的Gen3 SAR卫星示意图，仅用于说明其卫星业务，并非本次Avio交易现场或涉事卫星照片。",
+          "image_source_name": "ICEYE Product Documentation",
+          "image_source_url": "https://sar.iceye.com/5.2.8/productguide/fleet/"
         },
         {
           "category": "AI与科技",
