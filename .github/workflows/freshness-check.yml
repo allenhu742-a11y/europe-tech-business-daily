@@ -1,0 +1,37 @@
+name: Daily briefing freshness check
+
+on:
+  schedule:
+    # 07:15 UTC = 08:15 Warsaw in winter / 09:15 in summer
+    - cron: "15 7 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check latest edition date
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          TODAY=$(TZ=Europe/Warsaw date +%F)
+          LATEST=$(curl -fsSL "https://raw.githubusercontent.com/${GH_REPO}/main/data/editions.json" | jq -r '.editions[0].date // ""')
+          echo "Warsaw date: $TODAY"
+          echo "Latest edition: $LATEST"
+          if [[ "$LATEST" == "$TODAY" ]]; then
+            echo "Briefing is up to date."
+            exit 0
+          fi
+          TITLE="日报更新提醒：${TODAY} 尚无当日内容"
+          EXISTING=$(gh issue list --repo "$GH_REPO" --state open --search '日报更新提醒 in:title' --json number --jq '.[0].number // empty')
+          if [[ -n "$EXISTING" ]]; then
+            echo "An open reminder already exists: #$EXISTING"
+            exit 0
+          fi
+          gh issue create --repo "$GH_REPO" --title "$TITLE" --body "自动检查发现：华沙日期为 **$TODAY**，但网站最新一期仍为 **${LATEST:-空}**。\n\n请完成当日新闻采编、事实核验，并将新一期写入 `data/editions.json`。此工作流只负责检查和提醒，不会自动生成新闻内容。"
