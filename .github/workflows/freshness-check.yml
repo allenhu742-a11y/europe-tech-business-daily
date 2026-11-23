@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
   issues: write
 
 concurrency:
@@ -40,12 +41,15 @@ jobs:
       - name: Generate, verify and append today's edition
         if: steps.local-time.outputs.run == 'true'
         env:
-          OPENAI_API_KEY: \${{ secrets.OPENAI_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_MODEL: gpt-6.2-sol
-          EDITION_DATE: \${{ steps.local-time.outputs.today }}
+          EDITION_DATE: ${{ steps.local-time.outputs.today }}
         run: python scripts/generate_daily.py
       - name: Commit and publish
         if: steps.local-time.outputs.run == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
         shell: bash
         run: |
           set -euo pipefail
@@ -56,14 +60,16 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/editions.json
-          git commit -m "Publish verified Europe tech and business daily for \${{ steps.local-time.outputs.today }}"
+          git commit -m "Publish verified Europe tech and business daily for ${{ steps.local-time.outputs.today }}"
           git push
+          # GITHUB_TOKEN pushes do not trigger other workflows; dispatch Pages explicitly.
+          gh workflow run pages.yml --repo "$GH_REPO" --ref main
       - name: Report failure in GitHub Issues
         if: failure()
         env:
-          GH_TOKEN: \${{ github.token }}
-          GH_REPO: \${{ github.repository }}
-          RUN_URL: \${{ github.server_url }}/\${{ github.repository }}/actions/runs/\${{ github.run_id }}
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
         shell: bash
         run: |
           TITLE="日报自动发布失败：$(TZ=Europe/Warsaw date +%F)"
