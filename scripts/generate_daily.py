@@ -171,6 +171,8 @@ def main():
             fail(f"Article {i} has no HTTPS source URL.")
         if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", article["published_at"]):
             fail(f"Article {i} has invalid publication date.")
+        if article["published_at"] > TODAY:
+            fail(f"Article {i} has a future publication date.")
         for field in ("image_url", "image_source_url"):
             value = article.get(field)
             if value is not None and not value.startswith("https://"):
