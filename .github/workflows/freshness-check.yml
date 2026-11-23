@@ -1,37 +1,78 @@
-name: Daily briefing freshness check
+name: Generate and publish daily briefing
 
 on:
   schedule:
-    # 07:15 UTC = 08:15 Warsaw in winter / 09:15 in summer
-    - cron: "15 7 * * *"
+    - cron: "0 6,7 * * *"
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   issues: write
 
+concurrency:
+  group: daily-briefing-publish
+  cancel-in-progress: false
+
 jobs:
-  check:
+  publish:
     runs-on: ubuntu-latest
     steps:
-      - name: Check latest edition date
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Check Warsaw local time
+        id: local-time
+        shell: bash
+        run: |
+          HOUR=$(TZ=Europe/Warsaw date +%H)
+          DATE=$(TZ=Europe/Warsaw date +%F)
+          echo "today=$DATE" >> "$GITHUB_OUTPUT"
+          if [[ "$GITHUB_EVENT_NAME" == "workflow_dispatch" || "$HOUR" == "08" ]]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          fi
+          echo "Warsaw time: $(TZ=Europe/Warsaw date -Is)"
+      - name: Set up Python
+        if: steps.local-time.outputs.run == 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Generate, verify and append today's edition
+        if: steps.local-time.outputs.run == 'true'
         env:
-          GH_TOKEN: ${{ github.token }}
-          GH_REPO: ${{ github.repository }}
+          OPENAI_API_KEY: \${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: gpt-6.2-sol
+          EDITION_DATE: \${{ steps.local-time.outputs.today }}
+        run: python scripts/generate_daily.py
+      - name: Commit and publish
+        if: steps.local-time.outputs.run == 'true'
+        shell: bash
         run: |
           set -euo pipefail
-          TODAY=$(TZ=Europe/Warsaw date +%F)
-          LATEST=$(curl -fsSL "https://raw.githubusercontent.com/${GH_REPO}/main/data/editions.json" | jq -r '.editions[0].date // ""')
-          echo "Warsaw date: $TODAY"
-          echo "Latest edition: $LATEST"
-          if [[ "$LATEST" == "$TODAY" ]]; then
-            echo "Briefing is up to date."
+          if git diff --quiet -- data/editions.json; then
+            echo "No content changes; nothing to publish."
             exit 0
           fi
-          TITLE="日报更新提醒：${TODAY} 尚无当日内容"
-          EXISTING=$(gh issue list --repo "$GH_REPO" --state open --search '日报更新提醒 in:title' --json number --jq '.[0].number // empty')
-          if [[ -n "$EXISTING" ]]; then
-            echo "An open reminder already exists: #$EXISTING"
-            exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/editions.json
+          git commit -m "Publish verified Europe tech and business daily for \${{ steps.local-time.outputs.today }}"
+          git push
+      - name: Report failure in GitHub Issues
+        if: failure()
+        env:
+          GH_TOKEN: \${{ github.token }}
+          GH_REPO: \${{ github.repository }}
+          RUN_URL: \${{ github.server_url }}/\${{ github.repository }}/actions/runs/\${{ github.run_id }}
+        shell: bash
+        run: |
+          TITLE="日报自动发布失败：$(TZ=Europe/Warsaw date +%F)"
+          EXISTING=$(gh issue list --repo "$GH_REPO" --state open --search '日报自动发布失败 in:title' --json number --jq '.[0].number // empty')
+          if [[ -z "$EXISTING" ]]; then
+            gh issue create --repo "$GH_REPO" --title "$TITLE" --body "自动采编或发布流程失败。运行记录：$RUN_URL。请检查 OPENAI_API_KEY、模型/API额度、新闻检索和数据校验日志。"
+          else
+            gh issue comment "$EXISTING" --repo "$GH_REPO" --body "新一次运行仍失败：$RUN_URL"
           fi
-          gh issue create --repo "$GH_REPO" --title "$TITLE" --body "自动检查发现：华沙日期为 **$TODAY**，但网站最新一期仍为 **${LATEST:-空}**。\n\n请完成当日新闻采编、事实核验，并将新一期写入 `data/editions.json`。此工作流只负责检查和提醒，不会自动生成新闻内容。"
+      - name: Report skipped non-08:00 UTC slot
+        if: steps.local-time.outputs.run == 'false'
+        run: echo "Skipped: this UTC slot does not correspond to 08:00 in Warsaw."
