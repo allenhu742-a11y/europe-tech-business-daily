@@ -120,7 +120,7 @@ def main():
             "优先过去24小时。先核验来源和发布日期，再筛选最重要5条。"
         ),
         "tools": [{"type": "web_search", "search_context_size": "high"}],
-        "tool_choice": "auto",
+        "tool_choice": "required",
         "max_output_tokens": 12000,
         "text": {
             "format": {
