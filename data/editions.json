@@ -5,7 +5,7 @@
     {
       "date": "2026-11-26",
       "title": "欧洲科技商业日报｜2026年11月26日",
-      "intro": "今日五条重点聚焦AI算力出口合规、欧洲科技自主与联网产品安全、欧美贸易摩擦，以及乌克兰能源基础设施风险。NVIDIA暂停部分东南亚AI服务器出货的报道尚未获公司确认；美国新出口规则本身已于11月19日生效。欧盟Quantum Act仍是立法提案，€500亿是基金目标规模而非已拨付预算；德国CRA执行法从今天起仅有部分职能生效，罚款机制要到2027年12月。以下严格区分已确认事实、媒体报道和分析判断。",
+      "intro": "今日五条重点聚焦AI算力出口合规、欧洲量子技术产业化、欧美贸易摩擦、联网产品网络安全执法，以及乌克兰能源基础设施风险。NVIDIA暂停部分东南亚AI服务器出货的报道尚未获公司确认；美国新出口规则本身已于11月19日生效。欧盟Quantum Act仍是立法提案，€500亿是基金目标规模而非已拨付预算；德国CRA执行法的部分职能从今天起生效，罚款机制要到2027年12月11日。以下严格区分已确认事实、媒体报道和分析判断。",
       "articles": [
         {
           "category": "AI与科技／芯片出口管制",
@@ -27,18 +27,18 @@
           "image_source_url": "https://nvidianews.nvidia.com/news/nvidia-contributes-blackwell-platform-design-to-open-hardware-ecosystem-accelerating-ai-infrastructure-innovation"
         },
         {
-          "category": "欧洲科技产业政策／量子技术与产品安全",
+          "category": "欧洲科技产业政策／量子技术与产业化",
           "published_at": "2026-11-25",
-          "title": "欧盟提出Quantum Act并为主权科技基金铺路，德国联网产品CRA执行机制今天启动",
-          "summary": "欧洲委员会11月25日提出Quantum Act，目标是把欧洲量子研究转化为产业、产品和服务，强化供应链，并为后量子密码迁移做准备；方案还为Sovereign Tech Equity Fund（STEF）铺路。Reuters称基金目标规模为€500亿，但这是目标规模，不是已经拨付或落实的预算；草案仍需欧盟成员国和欧洲议会谈判。另一项与终端产品更直接相关的进展是德国《网络韧性法案》实施法已刊入《联邦法律公报》：从11月26日起，德国BSI获得部分CRA相关职责，包括测试机构通知和网络安全事件响应职能；正式市场监管、投诉机制及罚款条款分阶段实施，罚款条款要到2027年12月11日才适用。",
-          "key_takeaway": "欧洲的科技自主战略开始同时覆盖“投钱扶持关键技术”和“建立联网产品安全执法能力”。对终端厂商而言，后者的合规准备时间表比量子基金的远期融资目标更直接。",
-          "industry_analysis": "Quantum Act强调研究转化、产业化、供应链安全和后量子密码能力；€500亿目标若能吸引私人资本，将有助于欧洲量子企业从科研项目走向规模化商业公司，但资金来源、治理结构和实际部署仍待明确。与此同时，Cyber Resilience Act（CRA）建立联网产品的横向网络安全要求，德国今天开始落实部分国家执行职能。CRA主要义务原则上从2027年12月11日起全面适用，主动遭利用漏洞和严重事件的报告义务已于2026年9月11日先行适用。",
-          "europe_impact": "手机、平板、智能手表、耳机、路由器、智能家居等含数字元素的产品，需由法务和产品安全团队逐一判断CRA适用范围及豁免情形，不能简单假设所有设备都完全相同。产品团队应提前建立漏洞接收与修复流程、软件物料清单、支持期限、更新策略、技术文档和供应商责任划分。波兰等其他成员国也需要各自落实监管机构和执法程序；德国BSI今天的职能变化，是欧洲监管执行逐渐具体化的信号。",
-          "watch_signal": "关注Quantum Act立法谈判、STEF资金来源与管理方式、欧盟公共采购中的欧洲控制权要求；同时跟踪德国BSI发布的CRA指引、测试机构名单、投诉机制及其他成员国指定监管机构的进度。",
+          "title": "欧盟提出Quantum Act并为€500亿主权科技基金铺路，量子研究转向产业化",
+          "summary": "欧洲委员会11月25日提出Quantum Act，目标是把欧洲量子研究转化为产业、产品和服务，强化关键供应链，并为后量子密码迁移做准备。提案围绕研究卓越、推动量子技术落地、保障系统与供应链安全三大支柱，拟通过Quantum Europe Framework Initiative协调欧盟和成员国项目。Reuters称，配套Sovereign Tech Equity Fund的目标规模为€500亿，但这是目标规模，并非已经拨付或落实的预算；草案仍需欧盟成员国和欧洲议会谈判，实施时间取决于谈判进度。",
+          "key_takeaway": "欧洲量子战略正在从科研资助转向产业化、采购和供应链布局。€500亿目标如果能够形成可执行的长期股权资本，可能缓解欧洲量子初创企业融资和规模化不足的问题，但目前仍是提案和目标，而非已到位资金。",
+          "industry_analysis": "量子计算、量子通信和量子传感的商业化仍处早期，欧洲拥有科研和部分初创企业基础，但私人融资规模与美国存在明显差距。Quantum Act尝试通过统一欧盟与成员国计划、支持公共采购和资本市场融资，把实验室成果转化为可交付产品。提案还强调关键供应商识别、供应链风险管理和后量子密码迁移，说明量子技术不仅是远期算力竞赛，也与通信安全、工业传感和国家安全相关。",
+          "europe_impact": "对手机、平板、穿戴和音频业务，短期不会出现量子芯片直接替代现有SoC的情况；更现实的影响是欧洲公共部门、金融和关键基础设施逐步规划后量子密码迁移，未来可能影响设备安全芯片、加密协议、长期软件支持和企业采购要求。对欧洲本土科技生态，基金若能真正落地，可能增加量子硬件、光子学、精密测量、控制系统和安全通信供应商的融资机会。",
+          "watch_signal": "关注欧盟成员国与欧洲议会对Quantum Act的修改、STEF基金的实际资本来源和治理方式、公共采购是否明确优先考虑欧盟控制实体，以及量子初创企业能否获得规模化订单和长期私人资本。",
           "source_name": "European Commission，Quantum Act提案（2026-11-25）",
           "source_url": "https://digital-strategy.ec.europa.eu/en/news/commission-proposes-quantum-act-and-new-sovereign-tech-equity-fund-strengthen-europes-industrial",
-          "secondary_source_name": "德国《联邦法律公报》BGBl. 2026 I Nr. 355／CRA实施法",
-          "secondary_source_url": "https://www.recht.bund.de/eli/bund/BGBl_1/2026/355",
+          "secondary_source_name": "Reuters，€500亿主权科技基金目标规模报道（2026-11-25）",
+          "secondary_source_url": "https://www.reuters.com/world/china/europe-plans-50-billion-sovereign-tech-equity-fund-boost-quantum-technology-2026-11-25/",
           "image_url": "https://www.munich-quantum-valley.de/fileadmin/user_upload/mqv/Images/ImagesForPortraits/DanielaZahn_inAction.jpg",
           "image_alt": "慕尼黑量子谷实验室研究人员测试超导量子芯片",
           "image_caption": "欧洲量子科研实验室示意图；与本次Quantum Act提案相关，但不是提案发布现场。",
